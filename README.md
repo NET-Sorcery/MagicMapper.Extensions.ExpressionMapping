@@ -1,7 +1,7 @@
 ## OData
-AutoMapper extentions for mapping expressions (OData)
+MagicMapper extentions for mapping expressions (OData)
 
-[![NuGet](http://img.shields.io/nuget/v/AutoMapper.Extensions.ExpressionMapping.svg)](https://www.nuget.org/packages/AutoMapper.Extensions.ExpressionMapping/)
+[![NuGet](http://img.shields.io/nuget/v/MagicMapper.Extensions.ExpressionMapping.svg)](https://www.nuget.org/packages/MagicMapper.Extensions.ExpressionMapping/)
 
 To use, configure using the configuration helper method:
 

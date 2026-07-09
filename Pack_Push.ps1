@@ -10,7 +10,7 @@ Write-Host "Project Path ${PROJECT_PATH}"
 Write-Host "Package Path ${NUGET_PACKAGE_PATH}"
 
 if ([string]::IsNullOrEmpty($Env:DEPLOY_PACKAGE_API_KEY)) {
-    Write-Host "${scriptName}: Only creates packages on AutoMapper repositories."
+    Write-Host "${scriptName}: Only creates packages on MagicMapper repositories."
 } else {
     dotnet pack $PROJECT_PATH -c Release -o .\artifacts --no-build
     dotnet nuget push $NUGET_PACKAGE_PATH --skip-duplicate --source $Env:DEPLOY_PACKAGE_URL --api-key $Env:DEPLOY_PACKAGE_API_KEY

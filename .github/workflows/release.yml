@@ -19,7 +19,7 @@ jobs:
 
     - name: Pack and push
       env:
-        PROJECT_NAME: AutoMapper.Extensions.ExpressionMapping
+        PROJECT_NAME: MagicMapper.Extensions.ExpressionMapping
         DEPLOY_PACKAGE_URL: https://api.nuget.org/v3/index.json
         DEPLOY_PACKAGE_API_KEY: ${{ secrets.NUGET_API_KEY }}
         REPO: ${{ github.repository }}

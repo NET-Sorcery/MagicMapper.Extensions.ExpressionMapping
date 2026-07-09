@@ -15,9 +15,9 @@ namespace AutoMapper.Extensions.ExpressionMapping
 
         public static Type CreateAnonymousType(IDictionary<string, Type> memberDetails)
         {
-            AssemblyName dynamicAssemblyName = new AssemblyName("TempAssembly.AutoMapper.Extensions.ExpressionMapping");
+            AssemblyName dynamicAssemblyName = new AssemblyName("TempAssembly.MagicMapper.Extensions.ExpressionMapping");
             AssemblyBuilder dynamicAssembly = AssemblyBuilder.DefineDynamicAssembly(dynamicAssemblyName, AssemblyBuilderAccess.Run);
-            ModuleBuilder dynamicModule = dynamicAssembly.DefineDynamicModule("TempAssembly.AutoMapper.Extensions.ExpressionMapping");
+            ModuleBuilder dynamicModule = dynamicAssembly.DefineDynamicModule("TempAssembly.MagicMapper.Extensions.ExpressionMapping");
             TypeBuilder typeBuilder = dynamicModule.DefineType(GetAnonymousTypeName(), TypeAttributes.Public);
             MethodAttributes getSetAttr = MethodAttributes.Public | MethodAttributes.SpecialName | MethodAttributes.HideBySig;
 

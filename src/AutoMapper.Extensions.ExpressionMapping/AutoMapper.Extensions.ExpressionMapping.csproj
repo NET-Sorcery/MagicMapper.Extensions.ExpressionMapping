@@ -1,19 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Summary>Expression mapping (OData) extensions for AutoMapper</Summary>
-    <Description>Expression mapping (OData) extensions for AutoMapper</Description>
+    <Summary>Expression mapping (OData) extensions for MagicMapper</Summary>
+    <Description>Expression mapping (OData) extensions for MagicMapper</Description>
     <TargetFramework>net8.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyOriginatorKeyFile>..\..\AutoMapper.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
     <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
-    <PackageId>AutoMapper.Extensions.ExpressionMapping</PackageId>
+    <PackageId>MagicMapper.Extensions.ExpressionMapping</PackageId>
 		<PackageIcon>icon.png</PackageIcon>
     <PackageProjectUrl>https://automapper.org</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/AutoMapper/AutoMapper.Extensions.ExpressionMapping</RepositoryUrl>
+    <RepositoryUrl>https://github.com/NET-Sorcery/MagicMapper.Extensions.ExpressionMapping</RepositoryUrl>
     <MinVerTagPrefix>v</MinVerTagPrefix>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>
@@ -29,7 +29,7 @@
 	</ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="[14.0.0,15.0.0)" />
+    <PackageReference Include="MagicMapper" Version="[14.0.0,15.0.0)" />
     <PackageReference Include="MinVer" Version="6.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
