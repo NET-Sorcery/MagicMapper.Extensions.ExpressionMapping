@@ -14,6 +14,6 @@
     <File Path="Pack_Push.ps1" />
     <File Path="README.md" />
   </Folder>
-  <Project Path="src/AutoMapper.Extensions.ExpressionMapping/AutoMapper.Extensions.ExpressionMapping.csproj" />
-  <Project Path="tests/AutoMapper.Extensions.ExpressionMapping.UnitTests/AutoMapper.Extensions.ExpressionMapping.UnitTests.csproj" />
+  <Project Path="src/MagicMapper.Extensions.ExpressionMapping/MagicMapper.Extensions.ExpressionMapping.csproj" />
+  <Project Path="tests/MagicMapper.Extensions.ExpressionMapping.UnitTests/MagicMapper.Extensions.ExpressionMapping.UnitTests.csproj" />
 </Solution>
